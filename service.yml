@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+   name: cloudknowledges
+   labels:
+      app: cloudknowledges
+spec:
+   selector:
+      app: cloudknowledges
+   type: LoadBalancer
+   ports:
+     - protocol: TCP
+       port: 8080
+       targetPort: 80
+       nodePort: 31200
