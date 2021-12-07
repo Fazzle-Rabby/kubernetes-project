@@ -1,5 +1,7 @@
 # DevOps Project with kubernetes-project
 
+Developer > Git-Hub > Jenkins > Ansible > Kubernetes
+
 # Send files or execute command over ssh
 
 rsync -avh /var/lib/jenkins/workspace/kubernetes-project/*  root@172.31.4.131:/opt
