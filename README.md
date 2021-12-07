@@ -1,4 +1,4 @@
-# kubernetes-project
+# DevOps Project with kubernetes-project
 
 # Send files or execute command over ssh
 
